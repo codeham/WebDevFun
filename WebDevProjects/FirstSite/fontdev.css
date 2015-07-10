@@ -1,0 +1,46 @@
+.header{
+	font-family: Times;
+        color: white;
+	font-size: 40px;
+	
+}
+
+.boxed{
+
+}
+
+#firstpage{
+	background-color: white; 
+        font-family: Times; 
+        background-image: url(http://i.4cdn.org/wg/1436002553508.png); 
+      
+
+}
+
+
+
+.list {
+	font-size: 25px;  
+}
+
+.navigationbar{
+        font-family: ariel; 
+}
+
+/*Second Page*/
+
+.firstrow{
+ font-family: Times;    
+
+}
+
+#secondpage{
+    /*background-image: url(http://i.4cdn.org/wg/1435994804763.jpg);*/
+}
+
+/*Third Page*/ 
+
+.testtable{
+    align:center; 
+    valign:top; 
+}
