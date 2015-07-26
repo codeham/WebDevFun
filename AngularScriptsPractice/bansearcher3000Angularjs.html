@@ -1,0 +1,33 @@
+<!--
+angular js challenge 
+- Create a webpage that searches top bands, and shows their genre along with their ratings...
+-->
+<!DOCTYPE html>
+<html ng-app>
+<head>
+<link rel = "stylesheet" type="text/css" href="bandSearch3000cascade.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+<script src="musicDirectory.js"></script>
+	<title>Band Searcher 3000</title>
+</head>
+<body>
+<h1>Welcome to Band Searcher 3000 !</h1>
+
+<!-- Search Bar With Two Way Binding -->
+
+<div class="TwoWayBinding">
+<h1>Worlds Fastest Music Search Engine</h1>
+<input type="text" ng-model="SearchRes" placeholder="Enter a band name...">
+<h2>
+	You are searching for ... 
+	<br>
+	<h3>
+	{{ SearchRes }}
+	</h3>
+</h2>
+<button>Search</button>
+ 
+
+
+</body>
+</html>

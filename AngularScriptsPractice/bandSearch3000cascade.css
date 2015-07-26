@@ -1,0 +1,32 @@
+body{
+	background-color:  hsla(120, 100%, 50%, 0.3);
+	text-align: center;
+	font: times;
+	font-variant: small-caps;
+	
+}
+
+body h1{
+	 text-shadow: 2px 2px black;
+}
+
+.TwoWayBinding{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border: 15px solid black;
+	background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/06/galaxy-wallpapers-10.jpg");
+   	background-attachment: fixed;
+   	background-position: top;
+
+}
+
+.TwoWayBinding h3{
+	color: black;
+	font-family: cursive;
+	font-weight: bolder; 
+
+}
+
+.TwoWayBinding{
+
+}
